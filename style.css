@@ -97,7 +97,7 @@ button {
 }
 
 .info {
-    max-width: 150px;
+    max-width: 125px;
     margin-bottom: 128px;
     display: flex;
     flex-direction: column;
@@ -107,7 +107,53 @@ button {
 }
 
 .info img {
-    max-width: 100px;
+    max-width: 125px;
     border: 2px #3882F6 solid;
     border-radius: 5px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 350px;
+    gap: 8px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    
+}
+
+.quotee {
+    font-size: 20px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.cta-section {
+    padding: 100px 200px;
+}
+
+.cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #3882F6;
+    color: white;
+    font-size: 20px;
+    padding: 50px 150px;
+    border-radius: 10px;
+}
+
+.cta-bold {
+    font-weight: bold;
+}
+
+.cta-button {
+    border: 2px #F9FAF8 solid;
+    border-radius: 8px;
 }
